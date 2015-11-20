@@ -33,9 +33,9 @@
 	
 	self.handler = completion;
 	
-	for (int i = 0; i < 20; ++i) {
+	for (int i = 0; i < 5; ++i) {
 		
-		sleep(0.1);
+//		sleep(1);
 		
 		NSLog(@"%d", (int)i);
 	}
