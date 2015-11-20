@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7C5E831BFF34EB0089326F /* testVCTL.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C5E811BFF34EB0089326F /* testVCTL.m */; };
+		CE7C5E841BFF34EB0089326F /* testVCTL.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7C5E821BFF34EB0089326F /* testVCTL.xib */; };
 		CE9E4C2D1BFDEEC500F24D45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4C2C1BFDEEC500F24D45 /* main.m */; };
 		CE9E4C301BFDEEC500F24D45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4C2F1BFDEEC500F24D45 /* AppDelegate.m */; };
 		CE9E4C331BFDEEC500F24D45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4C321BFDEEC500F24D45 /* ViewController.m */; };
 		CE9E4C361BFDEEC500F24D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E4C341BFDEEC500F24D45 /* Main.storyboard */; };
 		CE9E4C381BFDEEC500F24D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E4C371BFDEEC500F24D45 /* Assets.xcassets */; };
 		CE9E4C3B1BFDEEC500F24D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E4C391BFDEEC500F24D45 /* LaunchScreen.storyboard */; };
+		CE9E4C441BFE130B00F24D45 /* TestBlockCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4C431BFE130B00F24D45 /* TestBlockCycle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7C5E801BFF34EB0089326F /* testVCTL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testVCTL.h; sourceTree = "<group>"; };
+		CE7C5E811BFF34EB0089326F /* testVCTL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testVCTL.m; sourceTree = "<group>"; };
+		CE7C5E821BFF34EB0089326F /* testVCTL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testVCTL.xib; sourceTree = "<group>"; };
 		CE9E4C281BFDEEC500F24D45 /* FastEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E4C2C1BFDEEC500F24D45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE9E4C2E1BFDEEC500F24D45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		CE9E4C371BFDEEC500F24D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9E4C3A1BFDEEC500F24D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9E4C3C1BFDEEC500F24D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9E4C421BFE130B00F24D45 /* TestBlockCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlockCycle.h; sourceTree = "<group>"; };
+		CE9E4C431BFE130B00F24D45 /* TestBlockCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlockCycle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,11 @@
 				CE9E4C391BFDEEC500F24D45 /* LaunchScreen.storyboard */,
 				CE9E4C3C1BFDEEC500F24D45 /* Info.plist */,
 				CE9E4C2B1BFDEEC500F24D45 /* Supporting Files */,
+				CE9E4C421BFE130B00F24D45 /* TestBlockCycle.h */,
+				CE9E4C431BFE130B00F24D45 /* TestBlockCycle.m */,
+				CE7C5E801BFF34EB0089326F /* testVCTL.h */,
+				CE7C5E811BFF34EB0089326F /* testVCTL.m */,
+				CE7C5E821BFF34EB0089326F /* testVCTL.xib */,
 			);
 			path = FastEnum;
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 			files = (
 				CE9E4C3B1BFDEEC500F24D45 /* LaunchScreen.storyboard in Resources */,
 				CE9E4C381BFDEEC500F24D45 /* Assets.xcassets in Resources */,
+				CE7C5E841BFF34EB0089326F /* testVCTL.xib in Resources */,
 				CE9E4C361BFDEEC500F24D45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +165,8 @@
 			files = (
 				CE9E4C331BFDEEC500F24D45 /* ViewController.m in Sources */,
 				CE9E4C301BFDEEC500F24D45 /* AppDelegate.m in Sources */,
+				CE9E4C441BFE130B00F24D45 /* TestBlockCycle.m in Sources */,
+				CE7C5E831BFF34EB0089326F /* testVCTL.m in Sources */,
 				CE9E4C2D1BFDEEC500F24D45 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +316,7 @@
 				CE9E4C411BFDEEC500F24D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
